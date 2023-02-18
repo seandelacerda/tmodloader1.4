@@ -26,13 +26,13 @@ services:
       - "TMOD_MOTD=Welcome to Simtat"
       - "TMOD_PASS=xband"
       - "TMOD_MAXPLAYERS=16"
-      - "TMOD_WORLDNAME=Simtat"
+      - "TMOD_WORLDNAME=Simtat v2"
       - "TMOD_WORLDSIZE=3"
       - "TMOD_WORLDSEED="
       # If set to "Yes", it is expected to have a config.txt mapped. The Server Settings above will be ignored.
       - "TMOD_USECONFIGFILE=No"
       - "TMOD_WORKSHOP=/root/terraria-server/steam/workshop"
-      - "TMOD_WORLDS=/root/terraria-server/worlds"
+      - "TMOD_WORLDS=/root/.local/share/Terraria/tModLoader/Worlds"
 
     volumes:
       - "/path/to/worlds/file:/root/.local/share/Terraria/tModLoader/Worlds"

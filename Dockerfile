@@ -22,7 +22,7 @@ ENV TMOD_ENABLEDMODS="2824688072,2824688266,2619954303,2563309347,2925134686,266
 ENV TMOD_MOTD="Welcome to Simtat"
 ENV TMOD_PASS="xband"
 ENV TMOD_MAXPLAYERS="8"
-ENV TMOD_WORLDNAME="Simtat"
+ENV TMOD_WORLDNAME="Simtat v2"
 ENV TMOD_WORLDSIZE="3"
 ENV TMOD_WORLDSEED=""
 
@@ -31,7 +31,7 @@ ENV TMOD_WORLDSEED=""
 ENV TMOD_USECONFIGFILE="No"
 
 # Directory to store world save files.
-ENV TMOD_WORLDS="/root/terraria-server/worlds"
+ENV TMOD_WORLDS="/root/.local/share/Terraria/tModLoader/Worlds"
 
 # Workshop directory for steam files.
 # These are stored to reduce startup times.
