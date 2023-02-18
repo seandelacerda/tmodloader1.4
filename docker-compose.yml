@@ -8,7 +8,7 @@ services:
     expose:
       - "7777"
     environment:
-      # Download these mods:
+      # Download these mods:F
       #CALAMITY=2824688072
       #CALAMITY_MUSIC=2824688266
       #RECIPE_BROWSER=2619954303
@@ -35,4 +35,4 @@ services:
     volumes:
       - "/path/to/worlds/file:/root/.local/share/Terraria/tModLoader/Worlds"
       - "/path/to/workshop/folder:/root/terraria-server/workshop-mods"
-      - "/path/to/config/config.txt:/root/terraria-server/serverconfig.txt"
+      # - "/path/to/config/config.txt:/root/terraria-server/serverconfig.txt"
