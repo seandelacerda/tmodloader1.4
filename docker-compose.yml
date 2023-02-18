@@ -8,19 +8,26 @@ services:
     expose:
       - "7777"
     environment:
-      # Download the Calamity mod and CalamityMusic mod.
-      - "TMOD_AUTODOWNLOAD=2824688072,2824688266"
-      # Enable the Calamity mod and CalamityMusic mod.
-      - "TMOD_ENABLEDMODS=2824688072,2824688266"
+      # Download these mods:
+      #CALAMITY=2824688072
+      #CALAMITY_MUSIC=2824688266
+      #RECIPE_BROWSER=2619954303
+      #MAGIC_STORAGE=2563309347
+      #HELPFUL_HOTKEYS=2645058109
+      #BOSS_CHECKLIST=2669644269
+      #EXPANDED_INVENTORY=2925134686
+      - "TMOD_AUTODOWNLOAD=2824688072,2824688266,2619954303,2563309347,2925134686,2669644269,26450581096"
+      # Enable mods.
+      - "TMOD_ENABLEDMODS=2824688072,2824688266,2619954303,2563309347,2925134686,2669644269,2645058109"
       # Shutdown Message and Autosave Interval (In Minutes)
-      - "TMOD_SHUTDOWN_MESSAGE=Goodbye!"
-      - "TMOD_AUTOSAVE_INTERVAL=15"
+      - "TMOD_SHUTDOWN_MESSAGE=Server is shutting down..."
+      - "TMOD_AUTOSAVE_INTERVAL=10"
       # Server Settings
-      - "TMOD_MOTD=Welcome to my tModLoader Server!"
-      - "TMOD_PASS=secret"
+      - "TMOD_MOTD=Welcome to Simtat"
+      - "TMOD_PASS=xband"
       - "TMOD_MAXPLAYERS=16"
-      - "TMOD_WORLDNAME=Earth"
-      - "TMOD_WORLDSIZE=2"
+      - "TMOD_WORLDNAME=Simtat"
+      - "TMOD_WORLDSIZE=3"
       - "TMOD_WORLDSEED=not the bees!"
       # If set to "Yes", it is expected to have a config.txt mapped. The Server Settings above will be ignored.
       - "TMOD_USECONFIGFILE=No"
