@@ -24,11 +24,18 @@ ENV TMOD_PASS="xband"
 ENV TMOD_MAXPLAYERS="8"
 ENV TMOD_WORLDNAME="Simtat"
 ENV TMOD_WORLDSIZE="3"
-ENV TMOD_WORLDSEED="Docker"
+ENV TMOD_WORLDSEED=""
 
 # Loading a configuration file expects a proper Terraria config file to be mapped to /root/terraria-server/serverconfig.txt
 # Set this to "Yes" if you would rather use a config file instead of the above settings.
 ENV TMOD_USECONFIGFILE="No"
+
+# Directory to store world save files.
+ENV TMOD_WORLDS="/root/terraria-server/worlds"
+
+# Workshop directory for steam files.
+# These are stored to reduce startup times.
+ENV TMOD_WORKSHOP="/root/terraria-server/steam/workshop"
 
 EXPOSE 7777
 
