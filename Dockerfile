@@ -5,24 +5,24 @@ FROM ubuntu:latest
 ARG TMOD_VERSION=v2022.09.47.33
 
 # The shutdown message is broadcast to the game chat when the container was stopped from the host.
-ENV TMOD_SHUTDOWN_MESSAGE="Server is shutting down NOW!"
+ENV TMOD_SHUTDOWN_MESSAGE="Server is shutting down..."
 
 # The autosave feature will save the world periodically. The interval is in minutes.
 ENV TMOD_AUTOSAVE_INTERVAL="10"
 
 # Mods which should be downloaded from Steam upon starting the server.
 # Example format: 2824688072,2824688266,2835214226
-ENV TMOD_AUTODOWNLOAD=""
+ENV TMOD_AUTODOWNLOAD="2824688072,2824688266,2619954303,2563309347,2925134686,2669644269,2645058109"
 
 # The mods we want to enable on the server on startup. Any omitted mods will not be loaded.
 # Example format: 2824688072,2824688266,2835214226
-ENV TMOD_ENABLEDMODS=""
+ENV TMOD_ENABLEDMODS="2824688072,2824688266,2619954303,2563309347,2925134686,2669644269,2645058109"
 
 # The following environment variables will configure common settings for the tModLoader server.
-ENV TMOD_MOTD="A tModLoader server powered by Docker!"
-ENV TMOD_PASS="docker"
+ENV TMOD_MOTD="Welcome to Simtat"
+ENV TMOD_PASS="xband"
 ENV TMOD_MAXPLAYERS="8"
-ENV TMOD_WORLDNAME="Docker"
+ENV TMOD_WORLDNAME="Simtat"
 ENV TMOD_WORLDSIZE="3"
 ENV TMOD_WORLDSEED="Docker"
 
