@@ -19,12 +19,12 @@ ENV TMOD_AUTODOWNLOAD="2824688072,2824688266,2619954303,2563309347,2925134686,26
 ENV TMOD_ENABLEDMODS="2824688072,2824688266,2619954303,2563309347,2925134686,2669644269,2645058109"
 
 # The following environment variables will configure common settings for the tModLoader server.
-ENV TMOD_MOTD="Welcome to Simtat 3"
+ENV TMOD_MOTD="Welcome to Asscrack"
 ENV TMOD_PASS="xband"
 ENV TMOD_MAXPLAYERS="8"
-ENV TMOD_WORLDNAME="Simtat3"
-ENV TMOD_WORLDSIZE="3"
-ENV TMOD_WORLDSEED=""
+ENV TMOD_WORLDNAME="asscrack"
+# ENV TMOD_WORLDSIZE="3"
+# ENV TMOD_WORLDSEED=""
 
 # Loading a configuration file expects a proper Terraria config file to be mapped to /root/terraria-server/serverconfig.txt
 # Set this to "Yes" if you would rather use a config file instead of the above settings.

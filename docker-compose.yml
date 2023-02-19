@@ -23,12 +23,12 @@ services:
       - "TMOD_SHUTDOWN_MESSAGE=Server is shutting down..."
       - "TMOD_AUTOSAVE_INTERVAL=10"
       # Server Settings
-      - "TMOD_MOTD=Welcome to Simtat 3"
+      - "TMOD_MOTD=Welcome to Asscrack"
       - "TMOD_PASS=xband"
       - "TMOD_MAXPLAYERS=16"
-      - "TMOD_WORLDNAME=Simtat3"
-      - "TMOD_WORLDSIZE=3"
-      - "TMOD_WORLDSEED="
+      - "TMOD_WORLDNAME=asscrack"
+      # - "TMOD_WORLDSIZE=3"
+      # - "TMOD_WORLDSEED="
       # If set to "Yes", it is expected to have a config.txt mapped. The Server Settings above will be ignored.
       - "TMOD_USECONFIGFILE=No"
       - "TMOD_WORKSHOP=/root/terraria-server/workshop-mods"
