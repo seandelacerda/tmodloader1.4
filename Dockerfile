@@ -19,10 +19,10 @@ ENV TMOD_AUTODOWNLOAD="2824688072,2824688266,2619954303,2563309347,2925134686,26
 ENV TMOD_ENABLEDMODS="2824688072,2824688266,2619954303,2563309347,2925134686,2669644269,2645058109"
 
 # The following environment variables will configure common settings for the tModLoader server.
-ENV TMOD_MOTD="Welcome to Simtat"
+ENV TMOD_MOTD="Welcome to Simtat 3"
 ENV TMOD_PASS="xband"
 ENV TMOD_MAXPLAYERS="8"
-ENV TMOD_WORLDNAME="Simtat v2"
+ENV TMOD_WORLDNAME="Simtat3"
 ENV TMOD_WORLDSIZE="3"
 ENV TMOD_WORLDSEED=""
 
@@ -35,7 +35,7 @@ ENV TMOD_WORLDS="/root/.local/share/Terraria/tModLoader/Worlds"
 
 # Workshop directory for steam files.
 # These are stored to reduce startup times.
-ENV TMOD_WORKSHOP="/root/terraria-server/steam/workshop"
+ENV TMOD_WORKSHOP="/root/terraria-server/workshop-mods"
 
 EXPOSE 7777
 

@@ -23,18 +23,17 @@ services:
       - "TMOD_SHUTDOWN_MESSAGE=Server is shutting down..."
       - "TMOD_AUTOSAVE_INTERVAL=10"
       # Server Settings
-      - "TMOD_MOTD=Welcome to Simtat"
+      - "TMOD_MOTD=Welcome to Simtat 3"
       - "TMOD_PASS=xband"
       - "TMOD_MAXPLAYERS=16"
-      - "TMOD_WORLDNAME=Simtat v2"
+      - "TMOD_WORLDNAME=Simtat3"
       - "TMOD_WORLDSIZE=3"
       - "TMOD_WORLDSEED="
       # If set to "Yes", it is expected to have a config.txt mapped. The Server Settings above will be ignored.
       - "TMOD_USECONFIGFILE=No"
-      - "TMOD_WORKSHOP=/root/terraria-server/steam/workshop"
+      - "TMOD_WORKSHOP=/root/terraria-server/workshop-mods"
       - "TMOD_WORLDS=/root/.local/share/Terraria/tModLoader/Worlds"
 
     volumes:
       - "/path/to/worlds/file:/root/.local/share/Terraria/tModLoader/Worlds"
       - "/path/to/workshop/folder:/root/terraria-server/workshop-mods"
-      # - "/path/to/config/config.txt:/root/terraria-server/serverconfig.txt"
